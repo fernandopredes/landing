@@ -1,0 +1,83 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/piplup.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container{
+  width: 900px;
+  margin: auto;
+}
+
+.banner a{
+  background-color: #F3E0EC;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: black;
+}
+.banner p{
+  margin-bottom: 45px;
+}
+
+.banner h1, .banner p{
+  color: white;
+
+}
+
+.text-center{
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card{
+  width: 200px;
+  text-align: center;
+  background-color: #7CA5B8;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border: 1px solid black;
+  padding-top: 20px;
+}
+
+.footer{
+  background-color: #223843;
+  padding: 60px;
+  text-align: center;
+}
+
+.footer a{
+  font-size: 40px;
+  color: white;
+}
+
+.footer p{
+font-size: 24px;
+color: white;
+}
